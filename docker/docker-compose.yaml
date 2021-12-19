@@ -1,0 +1,15 @@
+version: '3.3'
+
+volumes:
+  postgres_data:
+    driver: local
+
+services:
+  database:
+    image: postgres:alpine
+    ports:
+      - "5532:5432"
+    environment:
+      POSTGRES_DB: data_manipulation
+      POSTGRES_USER: pokal
+      POSTGRES_PASSWORD: pokal
