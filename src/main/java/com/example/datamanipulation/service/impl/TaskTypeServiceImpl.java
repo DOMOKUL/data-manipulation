@@ -1,15 +1,12 @@
 package com.example.datamanipulation.service.impl;
 
-import com.example.datamanipulation.domain.Task;
 import com.example.datamanipulation.domain.TaskType;
-import com.example.datamanipulation.repository.TaskRepository;
 import com.example.datamanipulation.repository.TaskTypeRepository;
 import com.example.datamanipulation.service.TaskTypeService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 @Service
 @RequiredArgsConstructor

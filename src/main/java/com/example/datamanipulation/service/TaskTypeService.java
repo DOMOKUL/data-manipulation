@@ -1,10 +1,8 @@
 package com.example.datamanipulation.service;
 
-import com.example.datamanipulation.domain.Task;
 import com.example.datamanipulation.domain.TaskType;
 
 import java.util.List;
-import java.util.UUID;
 
 public interface TaskTypeService {
 
